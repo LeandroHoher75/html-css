@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif; /*  Dentro do parametro a fonte que estiver disponivel ira prevalecer independente da ordem de precedencia*/
+        /*
+        Medidas Abolutas
+        cm, mm, in, (px), pt, pc
+
+        Medidas Relativas
+        (em), rem, vn, vh, %
+        16px geralmente - 1em        
+        */ 
+        font-size: 1em;
+        /* lighter normal bold bolder*/
+         
+        /*Tradução para as Funçoes com similaridade de escrita*/
+        /* weight widht height*/
+        /* Peso   Altura Largura*/       
+
+    }
+
+    h1 {
+        /*shorthand font
+        font style --> font weight --> font- size -> font-family
+        
+        font-family: 'Work- Sans' Sans- serif 
+        font weight: bolder;
+        font: size 3em;
+        font-style:Italic
+        */
+        font: italic bolder 3em 'Work Sans',sans-srif;
+
+    }
+
+    h2 {
+        font: bold 2em, 'Work Sans;'
+    }
+
+</style>
+<body >
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia minus iste modi officia distinctio nemo amet cum consequatur vero, dolor, tenetur est ipsam neque obcaecati aliquam nihil ipsa sed! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet perspiciatis obcaecati dolorem fugit eveniet similique culpa? Numquam adipisci veritatis quidem blanditiis id illo quasi, pariatur quos earum corrupti, magni dolorum.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque soluta tempora, sint nesciunt doloremque architecto aliquam aliquid numquam atque deserunt, provident ducimus error praesentium! Fuga vero reprehenderit at doloremque laboriosam!</p>
+    <h1>Subtitulo do Exercício</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorem iste ipsum nihil libero necessitatibus provident corporis cupiditate minima ipsa quae eum natus, sit unde autem aut laboriosam odio quidem.</p>
+
+</body>
+</html>
